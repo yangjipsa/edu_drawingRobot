@@ -96,6 +96,19 @@ void loop()
     Move2Point(-2,4); delay(500);
     Move2Point(2,4); delay(500);
     LiftUp();
+
+    /* Drawing Circle */
+    /*
+    LiftDown();
+    for (int i=0 ; i<=360 ; i=i+5)
+      {
+        tempX = cos(deg2rad(i));
+        tempY = sin(deg2rad(i));
+        Move2Point(tempX, 6 + tempY);
+        delay(100);
+      }
+    LiftUp();
+    */
   }
 
   if(cStateSW2 < lStateSW2) // if switch1 pushed
